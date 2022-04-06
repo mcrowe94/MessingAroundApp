@@ -31,20 +31,38 @@ namespace MessingAroundApp
 
             Console.WriteLine();
 
-            Console.WriteLine("If yes, what's your favorite game?");
+            Console.WriteLine("If yes, what's your favorite game? If no, that's okay - proceed to next question please!");
             var game = Console.ReadLine();
 
-            Console.WriteLine();
-
+            Console.WriteLine(); 
+          
             Console.WriteLine("What's your favorite hobby?");
             var hobby = Console.ReadLine();
 
             Console.WriteLine();
 
-            Console.WriteLine($"Your name is {name}! You're from {from}, you are {age}! " +
-                $"You enjoy watching {show}! " +
-                $"When you're not watching TV, you enjoy playing {game}! " +
-                $"If you're not playing games, you're spending your free time {hobby}!"); 
+            Console.WriteLine("What's your favorite time of year?");
+            var year = Console.ReadLine();
+
+            Console.WriteLine();
+
+            Console.WriteLine("What's your favorite color?");
+            var color = Console.ReadLine();
+
+            Console.WriteLine();
+
+            Console.WriteLine("Do you have a favorite band? If no, that's alright!");
+            var band = Console.ReadLine();
+
+            Console.WriteLine();
+
+            Console.WriteLine("Do you enjoy reading?");
+            var reading = Console.ReadLine();
+
+            Console.WriteLine();
+
+            Console.WriteLine("What's your favorite book if you have one?");
+            var book = Console.ReadLine(); 
                 
 
            
